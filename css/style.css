@@ -11,33 +11,30 @@
 @import "./home/introducao.css";
 @import "./home/inovacao.css";
 
-
 /* Canetas */
 @import "./canetas/canetas-lista.css";
 
-
-
 @font-face {
   font-family: "Spring LP Std";
-  src: url("fonts/SpringLPStd.woff2") format("woff2"),
-    url("fonts/SpringLPStd.woff") format("woff"),
-    url("fonts/SpringLPStd.ttf") format("truetype");
+  src: url("/Font/SpringLPStd/SpringLPStd.woff2") format("woff2"),
+    url("/Font/SpringLPStd/SpringLPStd.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "RecklessNeue-regular";
-  src: url("/fonts/RecklessNeue-Regular.woff2") format("woff2"),
-    url("/fonts/RecklessNeue-Regular.woff") format("woff");
+  src: url("/Font/RecklessNeue/RecklessNeue-Regular.woff2") format("woff2"),
+    url("/Font/RecklessNeue/RecklessNeue-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "RecklessNeue-semiBold";
-  src: url("/fonts/RecklessNeue-SemiBold.woff2") format("woff2"),
-    url("/fonts/RecklessNeue-SemiBold.woff") format("woff");
+  src: url("/Font/RecklessNeue/RecklessNeue-SemiBoldItalic.woff2")
+      format("woff2"),
+    url("/Font/RecklessNeue/RecklessNeue-SemiBoldItalic.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
