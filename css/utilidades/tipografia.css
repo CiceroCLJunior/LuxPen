@@ -1,37 +1,41 @@
 .font-1-xxxl {
-  font: 400 7.5rem/0.8 "RecklessNeue-regular", serif;
+  font: 400 7.2rem/0.8 "Playfair Display", serif;
 }
 
 .font-1-xxl {
-  font: 400 4rem/1.125 "ReckelssNeue-regular", serif;
+  font: 400 4rem/1.125 "Playfair Display", serif;
+}
+
+.font-1-xl {
+  font: 800 2rem/1.25 "Playfair Display", serif;
 }
 
 .font-2-xxl {
-  font: 700 4rem/1.125 "Inter", sans-serif;
+  font: 700 4rem/1.125 "Fira Sans", sans-serif;
 }
 
 .font-2-l {
-  font: 600 2rem/1.25 "Inter", sans-serif;
+  font: 600 2rem/1.25 "Fira Sans", sans-serif;
 }
 
 .font-2-l-a,
 .font-2-l-b {
-  font: 400 1.5rem/1.5 "Inter", sans-serif;
+  font: 400 1.5rem/1.5 "Fira Sans", sans-serif;
 }
 
 .font-2-l-b {
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.015rem;
   text-transform: uppercase;
 }
 
 .font-2-l-c {
-  font: 500 1.5rem/1.5 "Inter", sans-serif;
+  font: 500 1.5rem/1.5 "Fira Sans", sans-serif;
 }
 
 .font-2-m,
 .font-2-m-b {
-  font: 400 1.125rem/1.333 "Inter", sans-serif;
+  font: 400 1.125rem/1.333 "Fira Sans", sans-serif;
 }
 
 .font-2-m-b {
@@ -39,30 +43,30 @@
 }
 
 .font-2-m-c {
-  font: 500 1.125rem/1.333 "Inter", sans-serif;
+  font: 500 1.125rem/1.333 "Fira Sans", sans-serif;
 }
 
 .font-2-s {
-  font: 400 1rem/1.5 "Inter", sans-serif;
+  font: 400 1rem/1.5 "Fira Sans", sans-serif;
 }
 
 .font-2-xs {
-  font: 400 0.875rem/1.428 "Inter", sans-serif;
+  font: 400 0.875rem/1.428 "Fira Sans", sans-serif;
 }
 
 .font-2-xs-b {
-  font: 600 0.75rem/1.333 "Inter", sans-serif;
+  font: 600 0.75rem/1.333 "Fira Sans", sans-serif;
 }
 
-.font-3-Es {
-  font: 400 2rem/1.25 "Spring LP Std", sans-serif;
+.font-1-Es {
+  font: 400 1.25rem/1.25 "Playfair Display", sans-serif;
+  font-style: italic;
 }
 
 .tipo-home {
-  font-family: "Spring LP Std";
-  font-weight: 400;
-  padding-left: 4px;
-  padding-top: 4px;
+  font-family: "Playfair Display";
+  padding-left: 6px;
+  padding-bottom: 4px;
 }
 
 @media (max-width: 1200px) {

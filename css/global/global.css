@@ -1,7 +1,6 @@
 body {
   margin: 0px;
   font-family: Inter, Helvetica, sans-serif;
-  padding-bottom: 700px;
 }
 
 h1,
@@ -9,7 +8,8 @@ h2,
 h3,
 h4,
 ul,
-p {
+p,
+blockquote {
   margin: 0px;
 }
 
@@ -30,4 +30,4 @@ img {
 
 img [src$=".jpg"] {
   border-radius: 4px;
-} 
+}

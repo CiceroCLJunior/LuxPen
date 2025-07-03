@@ -1,0 +1,68 @@
+.tintas-bg {
+  background: var(--r-7);
+}
+
+.tintas {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 40px;
+  align-items: center;
+}
+
+.tintas h2 {
+  grid-column: 1/-1;
+}
+
+.tintas-item {
+  background-color: var(--r-9);
+  padding: 32px 32px 32px 60px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.tintas-item h3 {
+  margin-bottom: 40px;
+}
+
+.tintas-item span {
+  grid-column: 2;
+  display: block;
+  text-align: right;
+}
+
+.tintas-item ul {
+  grid-column: 1/-1;
+  margin-bottom: 32px;
+}
+
+.tintas-item li {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.tintas-item li + li {
+  margin-top: 20px;
+}
+
+.tintas-item li::before {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 9px;
+  background-image: url("../../img/icones/lista.svg");
+  position: absolute;
+  left: -21px;
+}
+
+.tintas-item a {
+  grid-column: 1/-1;
+}
+
+@media (max-width: 800px) {
+  .tintas {
+    grid-template-columns: 1fr;
+  }
+}
