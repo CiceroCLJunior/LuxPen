@@ -1,0 +1,103 @@
+.canetas-bg {
+  background: linear-gradient(to right, var(--w-0) 30% , var(--r-9)0%);
+}
+
+.canetas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.canetas-imagem {
+  display: grid;
+}
+
+.canetas-imagem img {
+  grid-area: 1/1;
+}
+
+.canetas-imagem span {
+  grid-area: 1/1;
+  place-self: start end;
+  margin-top: 20px;
+  display: inline-block;
+  background: var(--r-10);
+  padding: 8px 16px 8px 8px;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.canetas-conteudo {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-content: start;
+}
+
+.canetas h2, 
+.canetas p {
+  grid-column: 1/-1;
+}
+
+.canetas h2 {
+  margin-bottom: 20px;
+}
+
+.canetas h2::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--l-3);
+  margin-bottom: 8px;
+}
+
+.canetas p {
+  margin-bottom: 32px;
+}
+
+.canetas a {
+  place-self: end;
+}
+
+.canetas li {
+  display: flex;
+  align-items: center;
+}
+
+.canetas ul {
+  display: grid;
+  gap: 16px;
+}
+
+.canetas-conteudo img {
+  width: 24px;
+  margin-right: 8px;
+}
+
+@media (max-width: 800px) {
+  .canetas-bg {
+  background: var(--r-9);
+}
+  .canetas {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .canetas-conteudo {
+    grid-template-columns: 1fr;
+  }
+
+  .canetas ul {
+    font-size: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 32px;
+  }
+  .canetas a {
+    place-self: start;
+  }
+}

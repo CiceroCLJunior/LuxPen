@@ -17,7 +17,12 @@
 
 /* Canetas */
 @import "./canetas/canetas-lista.css";
+@import "./canetas/canetas.css";
 
 /* Tintas */
 @import "./tintas/tintas.css";
+
+/* Termos */
+@import "./termos/termos.css";
+
 
