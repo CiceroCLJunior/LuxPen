@@ -19,8 +19,13 @@
 @import "./canetas/canetas-lista.css";
 @import "./canetas/canetas.css";
 
+/* Caneta */
+@import "./caneta/caneta.css";
+
 /* Tintas */
 @import "./tintas/tintas.css";
+@import "./tintas/vantagens.css";
+@import "./tintas/perguntas.css";
 
 /* Termos */
 @import "./termos/termos.css";
