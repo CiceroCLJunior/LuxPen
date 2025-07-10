@@ -34,6 +34,10 @@
   align-content: start;
 }
 
+.canetas-conteudo span {
+  display: inline;
+}
+
 .canetas h2, 
 .canetas p {
   grid-column: 1/-1;

@@ -65,7 +65,10 @@
 
 .tipo-especial {
   font-family: "Playfair Display";
-  padding-left: 6px;
+}
+.tipo-especial-lista {
+  font-family: "Playfair Display";
+   padding-left: 8px;
   padding-bottom: 4px;
 }
 
